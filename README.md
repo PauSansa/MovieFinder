@@ -1,22 +1,20 @@
 # MovieFinder React Project
 
-## Introduction
-
-This project is my first experience with React, where I have utilized various important concepts and tools, including `useCallback`, `useRef`, `useEffect`, and custom hooks. The project was built using Vite as the development environment. I followed the technical challenge provided by Midudev as a guideline for the entire development process.
-
 ## Project Overview
 
-The primary objective of this project was to gain hands-on experience with React and related technologies. By using Vite as the build tool, I aimed to create a modern, efficient, and responsive web application.
+The core functionality of this project revolves around a movie search feature. Users can input keywords, and the application will display matching movie posters, titles, and release years. While the project may appear straightforward, it serves as an excellent foundation for practicing React and its associated technologies.
 
 ### Features
 
-- **React Components**: The project is built using React, with various components to create a dynamic user interface.
-- **Custom Hooks**: Custom hooks have been implemented to encapsulate and reuse logic throughout the application.
-- **useCallback**: The `useCallback` hook has been used to optimize performance and prevent unnecessary re-renders.
-- **useRef**: `useRef` is employed for accessing and interacting with DOM elements efficiently.
-- **useEffect**: The `useEffect` hook is utilized for handling side effects, such as fetching data and managing component lifecycles.
-- **Vite**: The project utilizes Vite as the development environment, providing a fast and optimized development experience.
-- **Responsive Design**: The application is designed to be responsive, ensuring a seamless user experience across various devices and screen sizes.
+- **Movie Search**: The primary function allows users to search for movies by entering relevant keywords.
+- **Display**: The application displays movie posters, titles, and release years for matching results.
+- **React Components**: The project is constructed using React, with a focus on creating reusable components for a dynamic user interface.
+- **Custom Hooks**: Custom hooks are implemented to encapsulate and reuse logic efficiently.
+- **Performance Optimization**: The `useCallback` hook is used to enhance performance and prevent unnecessary re-renders.
+- **DOM Interaction**: `useRef` is employed for efficient interaction with DOM elements.
+- **Side Effects Handling**: The `useEffect` hook is utilized for managing side effects, such as fetching movie data and handling component lifecycles.
+- **Vite**: The project harnesses Vite as the development environment, offering a swift and optimized development experience.
+- **Responsiveness**: The application is designed to adapt to various devices and screen sizes, ensuring a seamless user experience.
 
 ## Getting Started
 
