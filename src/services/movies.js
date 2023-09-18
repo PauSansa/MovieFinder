@@ -1,4 +1,4 @@
-const API_KEY = import.meta.env.REACT_APP_API_KEY
+const API_KEY = import.meta.env.VITE_API_KEY
 
 export function mapMovies (movies) {
     return movies?.map(movie => ({
