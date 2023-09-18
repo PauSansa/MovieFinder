@@ -12,8 +12,6 @@ function App() {
 
   useEffect(() => {
     getMovies({search})
-    console.log('useEffect')
-    console.log(movies)
   },[])
   
   const handleSubmit = (event) => {

@@ -1,4 +1,4 @@
-const API_KEY = '18d86288'
+const API_KEY = import.meta.env.REACT_APP_API_KEY
 
 export function mapMovies (movies) {
     return movies?.map(movie => ({

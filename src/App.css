@@ -26,7 +26,7 @@ form {
   display: grid;
   width: 100%;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 18px;
+  gap: 20px;
 }
 
 .movie {
@@ -36,3 +36,9 @@ form {
 .movie img {
   border-radius: 8px;
 }
+
+.movie:hover {
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+}
+
